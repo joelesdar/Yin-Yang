@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: black; }
+
+h1 {
+  text-align: center;
+  color: #fff; }
+
+.yin-yang {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: black;
+  margin: 2em auto;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+  background: radial-gradient(37.5px circle at 50% 25%, black 50%, transparent 50%), radial-gradient(37.5px circle at 50% 75%, white 50%, transparent 50%), radial-gradient(150px circle at 50% 25%, white 50%, transparent 50%), radial-gradient(150px circle at 50% 75%, black 50%, transparent 50%), linear-gradient(90deg, white 50%, black 50%);
+  animation: girar 2s linear infinite; }
+
+@keyframes girar {
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=estilos.css.map */
